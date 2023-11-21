@@ -492,3 +492,29 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/* `SSH 커스터마이징 */
+.header .logo {
+  /* position: absolute;
+  top: 15px;
+  left: 30px; */
+
+  display: block;
+  /* width: 28px;
+  height: 28px; */
+  width: 56px;
+  height: 56px;
+
+  background-image: url(https://campaign-cdn.pstatic.net/0/campaign/2023/03/healthychart/img_v2/sp_common.png);
+  /* -webkit-background-size: 211px 193px; */
+  /* background-size: 211px 193px; */
+  /* background-position: -181px -134px; */
+  background-position: -366px -272px;
+  transition: .5s !important;
+}
+
+.navbar-shrink .header .logo{
+  /* background-position: -181px -102px; */
+  background-position: -366px -202px;
+  background-color: salmon;
+}
